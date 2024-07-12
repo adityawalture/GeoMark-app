@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "363942247079",
+    "project_id": "geomark-attendance-app",
+    "storage_bucket": "geomark-attendance-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363942247079:android:7b57647d423385722bb982",
+        "android_client_info": {
+          "package_name": "com.example.geomark"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYm4myVug6bE6TZjMjqTQlWOvN5XjTwBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
