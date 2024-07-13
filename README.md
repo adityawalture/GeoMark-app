@@ -33,6 +33,6 @@ Flutter Attendance app for field workers, takes attendance with user's real-time
     flutter_map
     http
     latlong2
-    permission_handler: ^11.3.1
+    permission_handler:
     
 Api: <a href="https://developer.tomtom.com/">Tom-Tom maps</a> 
