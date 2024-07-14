@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
 
 class MapsPage extends StatelessWidget {
   final LatLng? currentLocation;
 
-  const MapsPage({super.key, this.currentLocation});
+   MapsPage({super.key, this.currentLocation});
 
-  final String apiKey = "DG35lTv6dayKzyO33chnPGKvEQABRtey";
+  final String apiKey = dotenv.env['MAPSAPKEY']!;
 
   @override
   Widget build(BuildContext context) {
